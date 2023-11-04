@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+header{
+    background-color: seagreen;
+    padding: 24px;
+    margin-bottom: 50px;
+}
+
+h1{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-title{
+    color: black;
+    font-size: 34px;
+    margin: 24px;
+    text-align: center;
+}
+
+.project-categories-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.category-title{
+    color: black;
+    border: 2px solid mediumseagreen;
+    border-radius: 6px;
+    width: max-content;
+    padding: 12px;
+    font-size: 22px;
+    margin: 0px 24px;
+}
+
+.project-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+}
+
+.project-link{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: mediumseagreen;
+    padding: 24px;
+    margin: 24px;
+    border: 2px solid mediumseagreen;
+    border-radius: 6px;
+}
+
+.project-link:hover{
+    background-color: transparent;
+}
+
+.project-title{
+    text-align: center;
+}
+
+.project-link:hover .project-title{
+    color: mediumseagreen;
+}
+
+.course-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.course{
+    margin: 24px;
+    padding: 24px;
+    border: 2px solid mediumseagreen;
+    border-radius: 6px;
+}
+
+.course-title{
+    color: black;
+    font-size: 22px;
+}
+
+.associated-knowledge-title{
+    font-size: 20px;
+    margin-top: 16px;
+}
+
+.knowledge-list{
+    list-style-type: disc;
+    margin-left: 24px;
+    margin-top: 10px;
+}
+
+.knowledge{
+    color: black;
+    font-size: 20px;
+}
